@@ -1,0 +1,33 @@
+C++ :
+
+Stl : Standard template library
+
+Stl includes :
+
+-> Containers - -> Array
+		-> Stack - 
+			stack<int> <stackname>;
+			<stackname>.push(<element>);
+			<stackname>.pop();
+		-> Queue
+		-> List - doubly ended linked list
+		-> Vector - dynamic array
+			vector<int> <vectorname>;
+			<vectorname>.push_back(<element>);
+			<vectorname>.insert(<element>);
+			<vectorname>.pop_back();
+			<vectorname>.erace(<begin>,<end>);
+			<vectorname>.at(<index>);
+			vector<int> :: iterator <iteratorname>;
+			<vectorname>.begin();
+			<vectorname>.end();
+			<vectorname>.sort();
+		-> set
+		-> map
+		-> multimap
+		-> priority_queue
+
+-> Algorithms - -> Sorting
+		-> Searching
+
+-> Iterators - -> pointers
